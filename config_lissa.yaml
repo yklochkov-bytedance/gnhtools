@@ -1,0 +1,23 @@
+# general
+seed: 1465
+exp_id: 3
+log_dir: "logs/lissa_steps"
+
+dataset: "web-text-tok-opt"
+network: "facebook/opt-1.3b"
+
+# lissa
+steps: 10
+damp: 5.0
+soft_damp_for_sketched: 5.0
+batch_size: 4
+eval_every: 50
+lr: 0.001
+lr_decay_power: 0.0
+
+# related to language models
+context: 512
+
+# related to choice of examples
+test_idx: 41
+n_train: 10

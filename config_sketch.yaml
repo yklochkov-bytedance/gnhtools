@@ -1,0 +1,17 @@
+# general
+seed: 34
+exp_id: 1
+log_dir_hessian: "logs/hashed_hessian"
+
+dataset: "web-text-tok-opt" 
+network: "facebook/opt-1.3b" 
+
+# related to language models
+context: 128
+
+# sketching
+dim: 40
+chunks: 2
+hvp_samples: 1
+hash_hess_from: 0
+hash_hess_to: 5

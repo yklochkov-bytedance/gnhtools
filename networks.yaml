@@ -1,0 +1,22 @@
+gpt2:
+  path: "STORAGE_PATH/hugginface/models/gpt2"
+gpt2-medium:
+  path: "STORAGE_PATH/hugginface/models/gpt2-medium"
+gpt2-large:
+  path: "STORAGE_PATH/hugginface/models/gpt2-large"
+gpt2-xl:
+  path: "STORAGE_PATH/hugginface/models/gpt2-xl"
+EleutherAI/gpt-j-6B:
+  path: "STORAGE_PATH/hugginface/models/gpt-j"
+EleutherAI/gpt-neo-1.3B:
+  path: "STORAGE_PATH/hugginface/models/gpt-neo-1.3b"
+facebook/opt-1.3b:
+  path: "STORAGE_PATH/hugginface/models/opt-1.3b"
+mistralai/Mistral-7B-v0.1:
+  path: "STORAGE_PATH/hugginface/models/mistral-7b"
+huggyllama/llama-7b:
+  path: "STORAGE_PATH/hugginface/models/llama-7b"
+resnet50:
+  path: "STORAGE_PATH/hugginface/models/resnet50.pth"
+resnet18:
+  path: "STORAGE_PATH/hugginface/models/resnet18.pth"

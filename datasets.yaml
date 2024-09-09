@@ -1,0 +1,16 @@
+# list of dataset folders and metadata files 
+#
+image-net-val:
+    path: "STORAGE_PATH/hugginface/datasets/imagenet-val.hf"
+wiki-simple:
+    path: "STORAGE_PATH/hugginface/datasets/wiki-simple-20220301.hf"
+web-text:
+    path: "STORAGE_PATH/hugginface/datasets/web-text.hf"
+web-text-tok-gpt2: # tokenized webtext for GPT2-Large
+    path: "STORAGE_PATH/hugginface/datasets/web-text-tok-gpt2.hf"
+web-text-tok-opt: # tokenized webtext for OPT-1.3B
+    path: "STORAGE_PATH/hugginface/datasets/web-text-tok-opt.hf"
+web-text-tok-llama1: # tokenized webtext for Llama-7B
+    path: "STORAGE_PATH/hugginface/datasets/web-text-tok-llama1.hf"
+web-text-tok-mistral: # tokenized webtext for Mistral-7B
+    path: "STORAGE_PATH/hugginface/datasets/web-text-tok-mistral.hf"

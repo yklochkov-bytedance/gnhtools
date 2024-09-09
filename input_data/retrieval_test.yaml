@@ -1,0 +1,8 @@
+embeddings:
+  - "/mnt/bn/hl-egor-big/hugginface/datasets/web-text-tok-opt-emb-0-100000.hf"
+  #- "/mnt/bn/hl-egor-big/hugginface/datasets/web-text-tok-mistral-emb-0-1691803.hf"
+  #- "/mnt/bn/hl-egor-big/hugginface/datasets/web-text-tok-mistral-emb-1691803-3383606.hf"
+prompts:
+  - "President Joe Biden, the 46th President of the United States, took office on January 20, 2021, after serving as Vice President under the Obama administration from 2009 to "
+completions:
+  - 2017. A long-time U.S. Senator from Delaware, Biden has brought decades of political experience to the White House. Since taking office, he has focused on combating the COVID-19 pandemic, implementing a nationwide vaccination program, and providing economic relief to Americans affected by the pandemic. Biden has also prioritized climate change, racial equity, and strengthening international relationships strained during the previous administration. He has sought to unite a divided nation, calling for unity and cooperation across party lines to address the country's most pressing issues. As President, Biden has faced challenges such as the withdrawal of U.S. troops from Afghanistan, the ongoing immigration debate, and the need for bipartisan cooperation in a polarized political climate."

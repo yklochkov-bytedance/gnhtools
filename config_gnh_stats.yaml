@@ -1,0 +1,17 @@
+# general
+seed: 2406
+exp_id: 18
+log_dir: "logs/gnh_stats"
+
+dataset: "web-text-tok-opt"
+network: "facebook/opt-1.3b"
+
+# how many point estimates?
+seeds: 1000
+
+# point estimate averages over how many points (sequences)?
+eval_size: 64
+batch_size: 8
+
+# related to language models
+context: 128
