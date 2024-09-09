@@ -8,7 +8,7 @@ This repository presents tools for vector manipulations associated with Gauss-Ne
 
 ## GNH definition
 
-Suppose, we have the classification problem $(x, y)\in\mathcal{X}\times[1..K]$, where $K$ is the number of classes. Suppose, our model produces logits $h(x, \theta)$, which we then pass to CrossEntropyLoss to calculate the loss $ \ell((x, y); \theta) = \ell_{CE}(h(x, \theta), y)$.
+Suppose, we have the classification problem $(x, y)\in\mathcal{X}\times[1..K]$, where $K$ is the number of classes. Suppose, our model produces logits $h(x,\theta)$, which we then pass to CrossEntropyLoss to calculate the loss $\ell((x, y); \theta) =\ell_{CE}(h(x,\theta),y)$.
 
 Then, the GNH is defined as follows,
 
